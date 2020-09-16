@@ -38,3 +38,19 @@ This code demonstrates how to start a project in node.
 - Under "Select a Blueprint" Click Node.js
 
 - Scroll down alh click "Create Instance"
+
+- Once the virtual machine has booted up, click the console button to access the command line in a new browser window.
+
+- At the command line, type ```git clone https://github.com/CS3550/Fall2020.Day09.Node.Express.Starter.git```. This will clone this repository into your new machine.
+
+- Move into the directory you clone with ```cd Fall2020.Day09.Node.Express.Starter```
+
+- Install the project dependencies with ```npm install```
+
+- You need to run node in its own process, otherwise it will stop when your console session stops. To prevent this, you need to run node in its own process. Any easy way to do this is to type ```screen```
+
+- Launch the node program in the new console with ```node index.js```
+
+- To get out of screen type Alt+a then Alt+d
+
+- You will still not be able to reach your server because AWS blocks port 8888 by default. To open port 8888, in LightSail find your virtual machine, click manage, then networking, and add 8888 to the firewall.
