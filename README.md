@@ -20,3 +20,21 @@ This code demonstrates how to start a project in node.
 ```node index.js```
 
 - Open a browser that points to the server:```http://localhost:8888```. Note that your port number may change if you use a different port number.
+
+## Up on the internet
+
+### AWS Lightsail
+
+- Obtain an AWS account
+
+- (Optional) Get AWS credits through AWS Educate or the GitHub Education Pack
+
+- Log on to console.aws.amazon.com
+
+- Go to aws.amazon.com/lightsail
+
+- Click Create Instance
+
+- Under "Select a Blueprint" Click Node.js
+
+- Scroll down alh click "Create Instance"
